@@ -12,4 +12,9 @@ export default [
     path: '/counter',
     component: asyncComponent(() => import('../pages/Counter')),
   },
+  {
+    name: '高级',
+    path: '/YeTwo',
+    component: asyncComponent(() => import('../pages/YeTwo')),
+  },
 ]
